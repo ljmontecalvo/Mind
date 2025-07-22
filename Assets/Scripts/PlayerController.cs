@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
 
     public float speed = 5f;
+    public Color offColor;
+    public Color onColor;
 
     private Vector2 moveDirection;
 
