@@ -167,37 +167,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &557175296
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 557175297}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &557175297
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557175296}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.01, y: 0.03, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &604903782
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,8 +383,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1320386373855981301, guid: 13b104fab286e494191beafe885e5183, type: 3}
+      propertyPath: tokenCount
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320386373855981301, guid: 13b104fab286e494191beafe885e5183, type: 3}
       propertyPath: spawnRadius
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320386373855981301, guid: 13b104fab286e494191beafe885e5183, type: 3}
+      propertyPath: tokensPerFrame
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320386373855981301, guid: 13b104fab286e494191beafe885e5183, type: 3}
+      propertyPath: minTokenDistance
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320386373855981301, guid: 13b104fab286e494191beafe885e5183, type: 3}
+      propertyPath: barbObstacleCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320386373855981301, guid: 13b104fab286e494191beafe885e5183, type: 3}
+      propertyPath: barbObstaclePrefab
+      value: 
+      objectReference: {fileID: 7000206274993796179, guid: ba14964c6a3e5024d962a44876c9551b, type: 3}
+    - target: {fileID: 5241602110251295691, guid: 13b104fab286e494191beafe885e5183, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4945966790417954821, guid: 366b841d15cc52b4e99f719a6c104a65, type: 3}
+    - target: {fileID: 5241602110251295691, guid: 13b104fab286e494191beafe885e5183, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5349107708270451939, guid: 13b104fab286e494191beafe885e5183, type: 3}
       propertyPath: m_Name
@@ -573,4 +570,3 @@ SceneRoots:
   - {fileID: 2127787248}
   - {fileID: 2204620334706491061}
   - {fileID: 6251248253727574234}
-  - {fileID: 557175297}
